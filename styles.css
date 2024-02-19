@@ -61,7 +61,7 @@ nav {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 20px; /* Adjust this value to change the distance from the bottom */
+  bottom: -10px; /* Adjust this value to change the distance from the bottom */
 }
 
 main {
