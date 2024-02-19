@@ -73,7 +73,12 @@
         <a href="#contact">Contact</a>
     </nav>
 </header>
-
+<section id="education">
+    <h2>Education</h2>
+    <p>University of California – San Diego (UCSD)</p>
+    <p>Rensselaer Polytechnic Institute (RPI)</p>
+    <p>Jserra Catholic High School (JSerra)</p>
+</section>
 <div class="content">
     <img src="logo.png" alt="Logo" class="logo-img">
     <div class="contact">Contact Information Here</div>
