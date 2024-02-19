@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,13 +13,13 @@
         header {
             background-color: #333;
             color: #fff;
-            padding: 10px 5vw; /* Adjusted padding to be relative to viewport width */
+            padding: 10px;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
         .logo {
-            font-size: 3vw; /* Adjusted font size to be relative to viewport width */
+            font-size: 24px;
             font-weight: bold;
             text-transform: uppercase;
         }
@@ -29,39 +30,38 @@
         .navigation a {
             color: #fff;
             text-decoration: none;
-            margin-right: 2vw; /* Adjusted margin to be relative to viewport width */
-            font-size: 1.5vw; /* Adjusted font size to be relative to viewport width */
+            margin-right: 20px;
+            font-size: 16px;
         }
         .content {
-            display: none; /* Hide content by default */
+            display: none;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 80vh; /* Adjusted height to be 80% of the viewport height */
+            height: 80vh;
             background-color: #000;
-            padding: 0 5vw; /* Adjusted padding to be relative to viewport width */
-            position: relative; /* Added position property */
+            padding: 20px;
+            position: relative;
         }
         .logo-img {
-            width: 30vw; /* Adjusted width to be relative to viewport width */
-            max-width: 200px; /* Added max-width to prevent logo from becoming too large */
+            width: 150px;
             height: auto;
-            margin-bottom: 5vh; /* Adjusted margin to be relative to viewport height */
+            margin-bottom: 20px;
         }
         .contact {
-            margin-top: 3vh; /* Adjusted margin to be relative to viewport height */
+            margin-top: 20px;
             color: #fff;
-            font-size: 2vw; /* Adjusted font size to be relative to viewport width */
+            font-size: 18px;
             text-align: center;
         }
         img.background-img {
-            width: 100vw; /* Adjusted width to be 100% of the viewport width */
+            width: 100%;
             height: auto;
             object-fit: cover;
-            position: absolute; /* Added position property */
-            top: 0; /* Added top property */
-            left: 0; /* Added left property */
-            z-index: -1; /* Added z-index property */
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
         }
     </style>
 </head>
@@ -92,7 +92,7 @@
 <script>
     function showEducation() {
         var educationContent = document.getElementById("educationContent");
-        educationContent.style.display = "flex"; // Show content when "Education" is clicked
+        educationContent.style.display = "flex";
     }
 </script>
 
