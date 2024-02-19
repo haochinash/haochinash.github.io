@@ -1,29 +1,31 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Your GitHub Website</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#hobby">Hobby</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+# Project Title
 
-  <main>
-    <section id="banner">
-      <h1>Explore My Life Journey</h1>
-      <img src="140fabfc1588825f1864973aafdb86d.jpg" alt="Your Name">
-      <p>HAOCHEN</p>
-    </section>
-  </main>
-</body>
-</html>
+A short description of your project.
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+Instructions for how to install your project.
+
+## Usage
+
+Examples of how to use your project.
+
+## Contributing
+
+Information on how others can contribute to the project.
+
+## Credits
+
+Acknowledge those who contributed to the project.
+
+## License
+
+The license for the project, if applicable.
