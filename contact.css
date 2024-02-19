@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto Mono', monospace; /* Using the same font */
+    color: white; /* Text color */
+}
+
+.logo {
+    /* Add styling for the logo here */
+}
+
+ul {
+    /* Style for the list */
+}
+
+li {
+    margin-bottom: 10px; /* Spacing between items */
+}
+
+img {
+    width: 20px; /* Adjust the size of logos */
+    height: auto;
+    margin-right: 10px;
+}
+
+button {
+    /* Style for buttons */
+}
