@@ -72,7 +72,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Adjusted for four times the viewport height */
+  height: 150vh; /* Adjusted for four times the viewport height */
   background: url('bg.jpg') no-repeat center center;
   background-size: cover;
   position: relative;
