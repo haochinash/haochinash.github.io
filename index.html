@@ -1,37 +1,94 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Your GitHub Website</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="nav-group left">
-        <ul>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#hobby">Hobby</a></li>
-          <li><a href="#resume">Resume</a></li>
-        </ul>
-      </div>
-      <div class="nav-group right">
-        <ul>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-      <div class="logo">昊</div>
-    </nav>
-  </header>
+body, h1, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
 
-  <main>
-    <section id="banner">
-      <div class="banner-text">
-        <h1>Explore My Life Journey</h1>
-        <p>HAOCHEN</p>
-      </div>
-    </section>
-  </main>
-</body>
-</html>
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  /* Remove background color */
+  /* background: #000; */
+  color: #000; /* Change text color to black */
+}
+
+header {
+  background: transparent;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.nav-group.left ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-group.left ul li {
+  padding: 0 20px;
+}
+
+.nav-group.left ul li a {
+  text-decoration: none;
+  color: #000; /* Change link color to black */
+  font-weight: bold;
+}
+
+.nav-group.right ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-group.right ul li a {
+  text-decoration: none;
+  color: #000; /* Change link color to black */
+  font-weight: bold;
+}
+
+.logo {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2em;
+  color: #000; /* Change logo color to black */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px; /* Adjust this value to change the distance from the bottom */
+}
+
+main {
+  padding-top: 80px; /* Adjust this value based on header height */
+}
+
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400vh; /* Adjusted for four times the viewport height */
+  background: url('bg.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  color: #000;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+#banner h1, #banner p {
+  color: #000;
+}
