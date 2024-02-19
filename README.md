@@ -1,54 +1,68 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hao Chen - Structural Engineer</title>
+    <title>HaoChinash</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000;
-            color: #fff;
+            background-color: #f0f0f0;
         }
         .container {
-            max-width: 800px;
+            max-width: 1200px;
             margin: auto;
             padding: 20px;
-            background-color: #000;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
         }
         header {
-            padding-bottom: 20px;
+            text-align: center;
+            padding: 20px 0;
         }
-        header h1 {
-            margin: 0;
-            font-size: 6vw; /* Responsive font size */
-            line-height: 1.5;
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
         }
-        header p {
-            margin: 0;
-            font-size: 4vw; /* Responsive font size */
-            font-weight: bold;
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
         }
-        .explore-link {
-            color: #fff;
-            text-decoration: none;
-            font-size: 3vw; /* Responsive font size */
-            border: 2px solid #fff;
-            padding: 2vw 4vw; /* Responsive padding */
-            border-radius: 2vw; /* Responsive border radius */
-            transition: all 0.3s ease;
-            margin-top: 2vw; /* Responsive margin */
-        }
-        .explore-link:hover {
-            background-color: #fff;
+        nav ul li a {
             color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .main-content {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .main-content h1 {
+            font-size: 48px;
+            color: #000;
+            margin-bottom: 20px;
+        }
+        .main-content p {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .button {
+            background-color: #000;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #333;
         }
     </style>
 </head>
@@ -57,10 +71,22 @@
 <div class="container">
 
     <header>
-        <h1>Hao Chen</h1>
-        <p>陈昊</p>
-        <a href="#home" class="explore-link">Explore More</a>
+        <h1>HaoChinash</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <div class="main-content">
+        <h1>Welcome to HaoChinash</h1>
+        <p>Discover elegance and style.</p>
+        <button class="button">Explore Now</button>
+    </div>
 
 </div>
 
