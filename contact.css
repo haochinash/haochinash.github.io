@@ -36,7 +36,7 @@ nav {
   padding: 0 20px;
 }
 
-.nav-group.left ul li a {
+.nav-group.left ul li a, .nav-group.right ul li a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
@@ -61,18 +61,18 @@ nav {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -3px; /* Adjust this value to change the distance from the bottom */
+  bottom: -3px;
 }
 
 main {
-  padding-top: 80px; /* Adjust this value based on header height */
+  padding-top: 80px;
 }
 
 #banner {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150vh; /* Adjusted for four times the viewport height */
+  height: 150vh;
   background: url('C.jpg') no-repeat center center;
   background-size: cover;
   position: relative;
@@ -90,4 +90,15 @@ main {
 
 #banner h1, #banner p {
   color: #000;
+}
+
+/* New Style for Logo Link */
+.logo a {
+  color: #fff; /* Keeps the color white */
+  text-decoration: none; /* Removes underline */
+}
+
+.logo a:hover, .logo a:focus {
+  color: #fff; /* Keeps the color white even on hover/focus */
+  text-decoration: none; /* Ensures no underline on hover/focus */
 }
