@@ -39,7 +39,6 @@
             align-items: center;
             justify-content: center;
             height: 80vh;
-            background-color: #000;
             padding: 20px;
             position: relative;
         }
@@ -54,14 +53,19 @@
             font-size: 18px;
             text-align: center;
         }
-        img.background-img {
+        .black-background {
+            background-color: #000;
+            height: 40vh; /* Adjusted height to cover 2/5 of the viewport height */
             width: 100%;
-            height: auto;
-            object-fit: cover;
             position: absolute;
             top: 0;
             left: 0;
             z-index: -1;
+        }
+        img.background-img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
         }
     </style>
 </head>
@@ -78,6 +82,8 @@
     </nav>
 </header>
 
+<div class="black-background"></div> <!-- Black background covering 2/5 of the top of the page -->
+
 <div class="content" id="educationContent">
     <section id="education">
         <h2>Education</h2>
@@ -87,8 +93,7 @@
     </section>
 </div>
 
-<img src="140fabfc1588825f1864973aafdb86d.jpg
-" alt="Background Image" class="background-img">
+<img src="140fabfc1588825f1864973aafdb86d.jpg" alt="Background Image" class="background-img">
 
 <script>
     function showEducation() {
