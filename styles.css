@@ -1,18 +1,22 @@
-body, h1, p, ul {
+body, h1, p, ul, li {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.6;
   background: url('bg.jpg') no-repeat center center fixed;
   background-size: cover;
+  color: #fff; /* Default text color set to white */
 }
 
 header {
-  background: transparent;
+  background: #000; /* Header background color set to black */
   padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 nav {
@@ -33,20 +37,22 @@ nav {
 
 .nav-group ul li a {
   text-decoration: none;
-  color: #000;
+  color: #fff; /* Navigation links color set to white */
   font-weight: bold;
 }
 
 .logo {
   font-size: 3em;
   font-weight: bold;
+  color: #fff; /* Logo text color set to white */
 }
 
 #banner {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: calc(100vh - 2/5 * 100vh); /* Adjust height to take the remaining 3/5 of the viewport height */
+  padding-top: 2/5 * 100vh; /* Offset by the height of the black section */
 }
 
 #banner img {
