@@ -1,14 +1,38 @@
+/* General Body Styles */
 body {
     font-family: 'Roboto Mono', monospace; /* Using the same font */
     color: white; /* Text color */
+    background-color: black; /* Match main page background */
 }
 
+/* Logo Styles */
 .logo {
-    /* Add styling for the logo here */
+    font-size: 24px; /* Adjust as needed */
+    text-align: center; /* Center logo */
 }
 
+/* Header and Navigation Bar */
+header {
+    background-color: black; /* Black background for the header */
+    padding: 10px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.nav-group {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-group a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/* Main Content Area */
 ul {
-    /* Style for the list */
+    list-style: none; /* Remove default list styling */
+    text-align: center; /* Center align list */
 }
 
 li {
@@ -22,5 +46,17 @@ img {
 }
 
 button {
-    /* Style for buttons */
+    background-color: white; /* Button background */
+    color: black; /* Button text color */
+    border: none; /* Remove border */
+    padding: 5px 10px; /* Padding inside button */
+    cursor: pointer; /* Cursor style */
+}
+
+/* Footer Styles */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
