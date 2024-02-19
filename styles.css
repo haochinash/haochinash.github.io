@@ -1,92 +1,45 @@
-body, h1, p, ul, li {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  line-height: 1.6;
-  color: #000; /* Change text color to black */
-}
+/* Other styles remain unchanged */
 
 header {
-  background: transparent;
-  padding: 20px 0;
+  background: #000; /* Header background color set to black */
+  padding: 20px 0; /* Adjust padding to change the height of the black background */
   position: fixed;
-  top: 0;
+  top: 0; /* Ensures the header is at the very top */
   width: 100%;
   z-index: 1000;
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 10px;
-}
-
-.nav-group.left ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
-
-.nav-group.left ul li {
-  padding: 0 20px;
-}
-
-.nav-group.left ul li a {
-  text-decoration: none;
-  color: #000; /* Change link color to black */
-  font-weight: bold;
-}
-
-.nav-group.right ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
-
-.nav-group.right ul li a {
-  text-decoration: none;
-  color: #000; /* Change link color to black */
-  font-weight: bold;
+  /* ... */
 }
 
 .logo {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 2em;
-  color: #000; /* Change logo color to black */
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 20px; /* Adjust this value to change the distance from the bottom */
-}
-
-main {
-  padding-top: 80px; /* Adjust this value based on header height */
+  /* ... */
 }
 
 #banner {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 400vh; /* Adjusted for four times the viewport height */
+  align-items: center; /* Centers the content vertically */
+  height: calc(100vh - 40px); /* Adjusts the height of the banner */
+  margin-top: 40px; /* Pushes the section down by the height of the header */
   background: url('bg.jpg') no-repeat center center;
   background-size: cover;
-  position: relative;
-  color: #000;
+  position: relative; /* Needed for absolute positioning inside */
+  color: #000; /* Sets the text color to black */
 }
 
 .banner-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 100%;
+  top: 50%; /* Positions the text halfway down the banner */
+  left: 50%; /* Positions the text in the center of the banner */
+  transform: translate(-50%, -50%); /* Centers the text precisely */
+  text-align: center; /* Centers the text horizontally */
+  width: 100%; /* Ensures the text is centered in the full width of the page */
 }
 
 #banner h1, #banner p {
-  color: #000;
+  color: #000; /* Sets the text color to black */
 }
+
+/* Additional styles for customization */
