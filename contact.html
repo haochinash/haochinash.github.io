@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Information</title>
+    <!-- Add your stylesheets and other head elements here -->
+</head>
+<body>
+    <h1>Contact Information</h1>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/hao-chen-6a2457259/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/agent_hao/" target="_blank">Instagram</a></li>
+        <li><button onclick="copyToClipboard('haochinash')">WeChat: Click to Copy</button></li>
+        <li><button onclick="copyToClipboard('hac047@ucsd.edu')">Email: Click to Copy</button></li>
+        <li><button onclick="copyToClipboard('+18583702497')">Phone Number: Click to Copy</button></li>
+    </ul>
+
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function() {
+                alert('Copied to clipboard');
+            }).catch(function(error) {
+                alert('Error in copying text: ' + error);
+            });
+        }
+    </script>
+</body>
+</html>
