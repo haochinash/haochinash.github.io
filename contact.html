@@ -1,17 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Contact Information</title>
-    <!-- Add your stylesheets and other head elements here -->
+    <link rel="stylesheet" href="contact.css">
+    <!-- Include Roboto Mono font from Google Fonts, if needed -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="background-color: black; color: white;">
+    <header>
+        <div class="logo">
+            <a href="index.html" style="color: white; text-decoration: none;">昊</a>
+        </div>
+    </header>
+
     <h1>Contact Information</h1>
     <ul>
-        <li><a href="https://www.linkedin.com/in/hao-chen-6a2457259/" target="_blank">LinkedIn</a></li>
-        <li><a href="https://www.instagram.com/agent_hao/" target="_blank">Instagram</a></li>
-        <li><button onclick="copyToClipboard('haochinash')">WeChat: Click to Copy</button></li>
-        <li><button onclick="copyToClipboard('hac047@ucsd.edu')">Email: Click to Copy</button></li>
-        <li><button onclick="copyToClipboard('+18583702497')">Phone Number: Click to Copy</button></li>
+        <li><img src="linkedin-logo.png" alt="LinkedIn"> <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a></li>
+        <li><img src="instagram-logo.png" alt="Instagram"> <a href="https://www.instagram.com/your-profile" target="_blank">Instagram</a></li>
+        <li><img src="wechat-logo.png" alt="WeChat"> <button onclick="copyToClipboard('YourWeChatID')">WeChat: Click to Copy</button></li>
+        <li><img src="email-logo.png" alt="Email"> <button onclick="copyToClipboard('youremail@example.com')">Email: Click to Copy</button></li>
+        <li><img src="phone-logo.png" alt="Phone"> <button onclick="copyToClipboard('+1234567890')">Phone Number: Click to Copy</button></li>
     </ul>
 
     <script>
