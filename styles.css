@@ -15,41 +15,44 @@ header {
   padding: 10px 0;
 }
 
-nav ul {
-  list-style: none;
+nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
 }
 
-nav ul li {
+.nav-group ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-group ul li {
   padding: 0 20px;
 }
 
-nav ul li a {
+.nav-group ul li a {
   text-decoration: none;
   color: #000;
   font-weight: bold;
 }
 
-nav .logo {
-  font-size: 3em; /* Size of the logo character */
+.logo {
+  font-size: 3em;
   font-weight: bold;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 #banner {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* This will make the banner full height */
+  height: 100vh;
 }
 
 #banner img {
   max-width: 200px;
   border-radius: 50%;
-  border: 4px solid white; /* Optional: if you want a white border around the image */
+  border: 4px solid white;
 }
 
 /* Additional styles for customization */
