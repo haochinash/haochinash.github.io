@@ -87,7 +87,8 @@
     </section>
 </div>
 
-<img src="background.jpg" alt="Background Image" class="background-img">
+<img src="140fabfc1588825f1864973aafdb86d.jpg
+" alt="Background Image" class="background-img">
 
 <script>
     function showEducation() {
