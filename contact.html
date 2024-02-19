@@ -1,6 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <title>Hao Chen</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Include Roboto Mono font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-group left">
+        <ul>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#hobby">Hobby</a></li>
+          <li><a href="HaoChenCV.pdf" target="_blank">Resume&nbsp;↗</a></li>
+        </ul>
+      </div>
+      <div class="nav-group right">
+        <ul>
+          <li><a href="contact.html">Contact&nbsp;✆&nbsp;</a></li>
+        </ul>
+      </div>
+      <div class="logo">昊</div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="banner">
+      <div class="banner-text">
+        <h1>Explore My Life Journey</h1>
+        <p>HAOCHEN</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <title>Contact Information</title>
     <link rel="stylesheet" href="contact.css">
@@ -21,32 +62,25 @@
         </nav>
     </header>
 
-    <main>
-        <section id="contact-info">
-            <div class="contact-text">
-                <h1>Contact Information</h1>
-                <ul>
-                    <li><img src="linkedin-logo.png" alt="LinkedIn"> <a href="https://www.linkedin.com/in/hao-chen-6a2457259/" target="_blank">LinkedIn</a></li>
-                    <li><img src="instagram-logo.png" alt="Instagram"> <a href="https://www.instagram.com/agent_hao/" target="_blank">Instagram</a></li>
-                    <li><img src="wechat-logo.png" alt="WeChat"> <button onclick="copyToClipboard('haochinash')">WeChat: Click to Copy</button></li>
-                    <li><img src="email-logo.png" alt="Email"> <button onclick="copyToClipboard('hac047@ucsd.edu')">Email: Click to Copy</button></li>
-                    <li><img src="phone-logo.png" alt="Phone"> <button onclick="copyToClipboard('+18583702497')">Phone Number: Click to Copy</button></li>
-                </ul>
-                <script>
-                    function copyToClipboard(text) {
-                        navigator.clipboard.writeText(text).then(function() {
-                            alert('Copied to clipboard');
-                        }).catch(function(error) {
-                            alert('Error in copying text: ' + error);
-                        });
-                    }
-            </div>
-        </section>
-    </main>
+   <body>
+    <h1>Contact Information</h1>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/hao-chen-6a2457259/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/agent_hao/" target="_blank">Instagram</a></li>
+        <li><button onclick="copyToClipboard('haochinash')">WeChat: Click to Copy</button></li>
+        <li><button onclick="copyToClipboard('hac047@ucsd.edu')">Email: Click to Copy</button></li>
+        <li><button onclick="copyToClipboard('+18583702497')">Phone Number: Click to Copy</button></li>
+    </ul>
 
-    <footer>
-        <!-- Footer content with your contact details -->
-    </footer>
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function() {
+                alert('Copied to clipboard');
+            }).catch(function(error) {
+                alert('Error in copying text: ' + error);
+            });
+        }
+    </script>
 </body>
 </html>
 
