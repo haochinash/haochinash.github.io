@@ -1,62 +1,30 @@
-/* General Body Styles */
-body {
-    font-family: 'Roboto Mono', monospace; /* Using the same font */
-    color: white; /* Text color */
-    background-color: black; /* Match main page background */
+/* Contact Information Section */
+#contact-info {
+  text-align: center;
+  padding: 20px;
 }
 
-/* Logo Styles */
-.logo {
-    font-size: 24px; /* Adjust as needed */
-    text-align: center; /* Center logo */
+#contact-info ul {
+  list-style: none;
+  padding: 0;
 }
 
-/* Header and Navigation Bar */
-header {
-    background-color: black; /* Black background for the header */
-    padding: 10px 0; /* Adjust padding as needed */
-    text-align: center;
+#contact-info ul li {
+  margin-bottom: 10px;
 }
 
-.nav-group {
-    display: inline-block;
-    margin: 0 10px;
+#contact-info ul li a, #contact-info ul li button {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.nav-group a {
-    color: white;
-    text-decoration: none;
-    padding: 5px 10px;
-}
-
-/* Main Content Area */
-ul {
-    list-style: none; /* Remove default list styling */
-    text-align: center; /* Center align list */
-}
-
-li {
-    margin-bottom: 10px; /* Spacing between items */
-}
-
-img {
-    width: 20px; /* Adjust the size of logos */
-    height: auto;
-    margin-right: 10px;
-}
-
-button {
-    background-color: white; /* Button background */
-    color: black; /* Button text color */
-    border: none; /* Remove border */
-    padding: 5px 10px; /* Padding inside button */
-    cursor: pointer; /* Cursor style */
-}
-
-/* Footer Styles */
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+#contact-info ul li a:hover, #contact-info ul li button:hover {
+  background-color: #fff;
+  color: #000;
 }
