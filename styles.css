@@ -1,69 +1,29 @@
-body, h1, p, ul, li {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  line-height: 1.6;
-  background: url('bg.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color: #000; /* Default text color set to black */
-}
-
-header {
-  background: #000; /* Header background color set to black */
-  padding: 60px 0; /* Increase padding to make the black background larger */
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 10px;
-}
-
-.nav-group.left ul, .nav-group.right ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
-
-.nav-group.left ul li, .nav-group.right ul li {
-  padding: 0 20px;
-}
-
-.nav-group.left ul li a, .nav-group.right ul li a {
-  text-decoration: none;
-  color: #fff; /* Navigation links color set to white */
-  font-weight: bold;
-}
-
-.logo {
-  font-size: 3em;
-  font-weight: bold;
-  color: #fff; /* Logo text color set to white */
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
+/* Other styles remain unchanged */
 
 #banner {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: calc(100vh - 120px); /* Adjusted for the header height */
-  padding-top: 120px; /* Adjusted for the header height */
-  color: #000; /* Text color set to black */
+  align-items: flex-end; /* Aligns the content to the bottom */
+  height: calc(100vh - 180px); /* Adjusts the height of the banner */
+  color: #000; /* Sets the text color to black */
+  position: relative; /* Needed for absolute positioning inside */
+  margin-top: 180px; /* Pushes the section down by the height of the header */
 }
 
-#banner h1, #banner p {
-  color: #000; /* Text color set to black */
+.banner-text {
+  position: absolute;
+  bottom: 20%; /* Adjust this value to place the text higher or lower */
+  text-align: center; /* Centers the text horizontally */
+  width: 100%; /* Ensures the text is centered in the full width of the page */
+}
+
+#banner h1 {
+  font-size: 2em; /* Adjust font size as needed */
+  margin-bottom: 0.5em; /* Space between the lines of text */
+}
+
+#banner p {
+  font-size: 1.5em; /* Adjust font size as needed */
 }
 
 /* Additional styles for customization */
