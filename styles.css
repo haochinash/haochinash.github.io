@@ -74,9 +74,8 @@ main {
   justify-content: center;
   align-items: center;
   height: 400vh; /* Adjusted for four times the viewport height */
-  /* Remove background image */
-  /* background: url('bg.jpg') no-repeat center center; */
-  /* background-size: cover; */
+  background: url('bg.jpg') no-repeat center center;
+  background-size: cover;
   position: relative;
   color: #000;
 }
