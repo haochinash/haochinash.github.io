@@ -1,29 +1,45 @@
 /* Other styles remain unchanged */
 
+header {
+  background: #000; /* Header background color set to black */
+  padding: 20px 0; /* Adjust padding to change the height of the black background */
+  position: fixed;
+  top: 0; /* Ensures the header is at the very top */
+  width: 100%;
+  z-index: 1000;
+}
+
+nav {
+  /* ... */
+}
+
+.logo {
+  /* ... */
+}
+
 #banner {
   display: flex;
   justify-content: center;
-  align-items: flex-end; /* Aligns the content to the bottom */
-  height: calc(100vh - 180px); /* Adjusts the height of the banner */
-  color: #000; /* Sets the text color to black */
+  align-items: center; /* Centers the content vertically */
+  height: calc(100vh - 40px); /* Adjusts the height of the banner */
+  margin-top: 40px; /* Pushes the section down by the height of the header */
+  background: url('bg.jpg') no-repeat center center;
+  background-size: cover;
   position: relative; /* Needed for absolute positioning inside */
-  margin-top: 180px; /* Pushes the section down by the height of the header */
+  color: #000; /* Sets the text color to black */
 }
 
 .banner-text {
   position: absolute;
-  bottom: 20%; /* Adjust this value to place the text higher or lower */
+  top: 50%; /* Positions the text halfway down the banner */
+  left: 50%; /* Positions the text in the center of the banner */
+  transform: translate(-50%, -50%); /* Centers the text precisely */
   text-align: center; /* Centers the text horizontally */
   width: 100%; /* Ensures the text is centered in the full width of the page */
 }
 
-#banner h1 {
-  font-size: 2em; /* Adjust font size as needed */
-  margin-bottom: 0.5em; /* Space between the lines of text */
-}
-
-#banner p {
-  font-size: 1.5em; /* Adjust font size as needed */
+#banner h1, #banner p {
+  color: #000; /* Sets the text color to black */
 }
 
 /* Additional styles for customization */
