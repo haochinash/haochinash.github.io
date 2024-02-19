@@ -4,6 +4,103 @@
   <meta charset="UTF-8">
   <title>Your GitHub Website</title>
   <link rel="stylesheet" href="styles.css">
+  <!-- Include Roboto Mono font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body, h1, p, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      background: url('bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    header {
+      background: #000;
+      padding: 20px 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px;
+    }
+
+    .nav-group.left ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-group.left ul li {
+      padding: 0 20px;
+    }
+
+    .nav-group.left ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .nav-group.right ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-group.right ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .logo {
+      font-family: 'Roboto Mono', monospace;
+      font-size: 2em;
+      color: #fff;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    main {
+      padding-top: 60px; /* Adjust this value based on header height */
+    }
+
+    #banner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 20px); /* Adjusted for header height */
+      background: url('bg.jpg') no-repeat center center;
+      background-size: cover;
+      position: relative;
+      color: #000;
+    }
+
+    .banner-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 100%;
+    }
+
+    #banner h1, #banner p {
+      color: #000;
+    }
+  </style>
 </head>
 <body>
   <header>
