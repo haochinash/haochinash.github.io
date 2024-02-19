@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+header h1 a {
+    color: #000; /* Change the color to black */
+    text-decoration: none; /* Remove underline */
+}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
