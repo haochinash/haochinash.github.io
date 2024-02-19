@@ -18,28 +18,34 @@
             padding: 20px;
             background-color: #000;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
         header {
             padding-bottom: 20px;
         }
         header h1 {
             margin: 0;
-            font-size: 36px;
+            font-size: 6vw; /* Responsive font size */
             line-height: 1.5;
         }
         header p {
             margin: 0;
-            font-size: 24px;
+            font-size: 4vw; /* Responsive font size */
             font-weight: bold;
         }
         .explore-link {
             color: #fff;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 3vw; /* Responsive font size */
             border: 2px solid #fff;
-            padding: 10px 20px;
-            border-radius: 5px;
+            padding: 2vw 4vw; /* Responsive padding */
+            border-radius: 2vw; /* Responsive border radius */
             transition: all 0.3s ease;
+            margin-top: 2vw; /* Responsive margin */
         }
         .explore-link:hover {
             background-color: #fff;
