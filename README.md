@@ -9,19 +9,21 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f2f2f2;
+            background-color: #222;
+            color: #fff;
         }
         .container {
             max-width: 800px;
             margin: auto;
             padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #333;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         }
         header {
             text-align: center;
             padding-bottom: 20px;
-            border-bottom: 1px solid #ddd;
+            border-bottom: 1px solid #444;
         }
         nav ul {
             list-style-type: none;
@@ -33,7 +35,7 @@
             margin-right: 20px;
         }
         nav ul li a {
-            color: #333;
+            color: #fff;
             text-decoration: none;
             font-weight: bold;
         }
