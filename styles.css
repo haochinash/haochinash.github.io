@@ -6,8 +6,6 @@ body, h1, p, ul, li {
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.6;
-  /* Remove background color */
-  /* background: #000; */
   color: #000; /* Change text color to black */
 }
 
