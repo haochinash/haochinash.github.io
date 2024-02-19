@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hao Chen</title>
+  <title>Contact - Hao Chen</title>
   <link rel="stylesheet" href="styles.css">
-  <!-- Include Roboto Mono font from Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -12,9 +11,9 @@
     <nav>
       <div class="nav-group left">
         <ul>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#hobby">Hobby</a></li>
+          <li><a href="index.html#education">Education</a></li>
+          <li><a href="index.html#experience">Experience</a></li>
+          <li><a href="index.html#hobby">Hobby</a></li>
           <li><a href="HaoChenCV.pdf" target="_blank">Resume&nbsp;↗</a></li>
         </ul>
       </div>
@@ -23,7 +22,7 @@
           <li><a href="contact.html">Contact&nbsp;✆&nbsp;</a></li>
         </ul>
       </div>
-      <div class="logo">昊</div>
+      <div class="logo"><a href="index.html">昊</a></div>
     </nav>
   </header>
 
@@ -38,8 +37,18 @@
           <li><button onclick="copyToClipboard('+18583702497')">Phone Number: Click to Copy</button></li>
         </ul>
       </div>
-
     </section>
   </main>
+
+  <script>
+    // JavaScript function for copying to clipboard
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(function() {
+        alert('Copied to clipboard');
+      }, function(err) {
+        alert('Error in copying text: ', err);
+      });
+    }
+  </script>
 </body>
 </html>
