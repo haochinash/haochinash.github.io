@@ -2,72 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hao Chen</title>
+  <title>Contact - Haochen</title>
   <link rel="stylesheet" href="styles.css">
-  <!-- Include Roboto Mono font from Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <nav>
+      <!-- Navigation links (pointing to sections in index.html) -->
       <div class="nav-group left">
         <ul>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#hobby">Hobby</a></li>
-          <li><a href="HaoChenCV.pdf" target="_blank">Resume&nbsp;↗</a></li>
+          <li><a href="index.html#education">Education</a></li>
+          <li><a href="index.html#experience">Experience</a></li>
+          <li><a href="index.html#hobby">Hobby</a></li>
+          <li><a href="index.html#resume">Resume</a></li>
         </ul>
       </div>
-      <div class="nav-group right">
-        <ul>
-          <li><a href="contact.html">Contact&nbsp;✆&nbsp;</a></li>
-        </ul>
-      </div>
+      <!-- Logo or personal identifier -->
       <div class="logo">昊</div>
     </nav>
   </header>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Contact Information</title>
-    <link rel="stylesheet" href="contact.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="nav-group left">
-                <!-- Add navigation items here -->
-            </div>
-            <div class="nav-group right">
-                <!-- Add navigation items here -->
-            </div>
-            <div class="logo">
-                <a href="index.html">昊</a>
-            </div>
-        </nav>
-    </header>
+  <main>
+    <section id="banner">
+      <div class="banner-text">
+        <h1>Get in Touch</h1>
+        <p>Contact Information</p>
+      </div>
+    </section>
 
-   <body>
-    <h1>Contact Information</h1>
-    <ul>
+    <!-- Contact information section -->
+    <section id="contact-info">
+      <ul>
         <li><a href="https://www.linkedin.com/in/hao-chen-6a2457259/" target="_blank">LinkedIn</a></li>
         <li><a href="https://www.instagram.com/agent_hao/" target="_blank">Instagram</a></li>
         <li><button onclick="copyToClipboard('haochinash')">WeChat: Click to Copy</button></li>
         <li><button onclick="copyToClipboard('hac047@ucsd.edu')">Email: Click to Copy</button></li>
         <li><button onclick="copyToClipboard('+18583702497')">Phone Number: Click to Copy</button></li>
-    </ul>
+      </ul>
+    </section>
+  </main>
 
-    <script>
-        function copyToClipboard(text) {
-            navigator.clipboard.writeText(text).then(function() {
-                alert('Copied to clipboard');
-            }).catch(function(error) {
-                alert('Error in copying text: ' + error);
-            });
-        }
-    </script>
+  <script>
+    // JavaScript function for copying to clipboard
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(function() {
+        alert('Copied to clipboard');
+      }, function(err) {
+        alert('Error in copying text: ', err);
+      });
+    }
+  </script>
 </body>
 </html>
-
-
