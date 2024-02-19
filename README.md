@@ -13,13 +13,13 @@
         header {
             background-color: #333;
             color: #fff;
-            padding: 10px 20px;
+            padding: 10px 5vw; /* Adjusted padding to be relative to viewport width */
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
         .logo {
-            font-size: 24px;
+            font-size: 3vw; /* Adjusted font size to be relative to viewport width */
             font-weight: bold;
             text-transform: uppercase;
         }
@@ -30,32 +30,34 @@
         .navigation a {
             color: #fff;
             text-decoration: none;
-            margin-right: 20px;
-            font-size: 16px;
+            margin-right: 2vw; /* Adjusted margin to be relative to viewport width */
+            font-size: 1.5vw; /* Adjusted font size to be relative to viewport width */
         }
         .content {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            height: 80vh; /* Adjusted height to be 80% of the viewport height */
             background-color: #000;
+            padding: 0 5vw; /* Adjusted padding to be relative to viewport width */
         }
         .logo-img {
-            width: 100px;
-            height: 100px;
-            margin-bottom: 20px;
-        }
-        .content img {
-            width: 60%;
+            width: 30vw; /* Adjusted width to be relative to viewport width */
+            max-width: 200px; /* Added max-width to prevent logo from becoming too large */
             height: auto;
-            border-radius: 10px;
-            margin-top: 20px;
+            margin-bottom: 5vh; /* Adjusted margin to be relative to viewport height */
         }
         .contact {
-            margin-top: 20px;
+            margin-top: 3vh; /* Adjusted margin to be relative to viewport height */
             color: #fff;
-            font-size: 18px;
+            font-size: 2vw; /* Adjusted font size to be relative to viewport width */
+            text-align: center;
+        }
+        img.background-img {
+            width: 100vw; /* Adjusted width to be 100% of the viewport width */
+            height: auto;
+            object-fit: cover;
         }
     </style>
 </head>
@@ -77,7 +79,7 @@
     <div class="contact">Contact Information Here</div>
 </div>
 
-<img src="background.jpg" alt="Background Image">
+<img src="background.jpg" alt="Background Image" class="background-img">
 
 </body>
 </html>
