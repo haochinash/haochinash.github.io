@@ -1,0 +1,115 @@
+body, h1, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background: #000;
+  color: #fff;
+}
+
+header {
+  background: transparent;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.nav-group.left ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-group.left ul li {
+  padding: 0 20px;
+}
+
+.nav-group.left ul li a, .nav-group.right ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-group.right ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-group.right ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.logo {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2em;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -3px;
+}
+
+main {
+  padding-top: 80px;
+}
+
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('C.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  color: #000;
+}
+
+.banner-text {
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: Center;
+  width: 100%;
+}
+
+#banner h1, #banner p {
+  color: #000;
+}
+
+/* New Style for Logo Link */
+.logo a {
+  color: #fff; /* Keeps the color white */
+  text-decoration: none; /* Removes underline */
+}
+
+.logo a:hover, .logo a:focus {
+  color: #fff; /* Keeps the color white even on hover/focus */
+  text-decoration: none; /* Ensures no underline on hover/focus */
+}
+
+/* New Styles for Styled Links */
+.styled-link {
+  color: #fff; /* or any color that matches your website */
+  text-decoration: none; /* Removes underline */
+}
+
+.styled-link:hover, .styled-link:focus {
+  color: #fff; /* or a different color for hover state */
+  text-decoration: none; /* Ensures no underline on hover/focus */
+}
