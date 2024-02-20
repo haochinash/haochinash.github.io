@@ -81,10 +81,10 @@ main {
 
 .banner-text {
   position: absolute;
-  top: 1000%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  top: 30%;
+  left: 20%;
+  transform: translate(0, 0);
+  text-align: left;
   width: 100%;
 }
 
