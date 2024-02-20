@@ -72,7 +72,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 120vh;
+  height: 100vh;
   background: url('CTS.jpg') no-repeat center center;
   background-size: cover;
   position: relative;
@@ -81,7 +81,7 @@ main {
 
 .banner-text {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
