@@ -26,13 +26,13 @@ nav {
   padding: 0 10px;
 }
 
-.nav-group.left ul, .nav-group.right ul {
+.nav-group.left ul {
   list-style: none;
   display: flex;
   align-items: center;
 }
 
-.nav-group.left ul li, .nav-group.right ul li {
+.nav-group.left ul li {
   padding: 0 20px;
 }
 
