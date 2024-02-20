@@ -64,7 +64,7 @@ main {
   background: url('edu.jpg') no-repeat center center;
   background-size: cover;
   position: relative;
-  color: #000;
+  color: #fff; /* Text color changed to white */
 }
 
 .banner-text {
@@ -74,33 +74,10 @@ main {
   transform: translate(-50%, -50%);
   text-align: left;
   width: 100%;
+  color: #fff; /* Text color changed to white */
 }
 
-#banner h1, #banner p {
-  color: #000;
-}
-
-/* New Style for Logo Link */
-.logo a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.logo a:hover, .logo a:focus {
-  color: #fff;
-  text-decoration: none;
-}
-
-/* New Styles for Styled Links */
-.styled-link {
-  color: #fff;
-  text-decoration: none;
-}
-
-.styled-link:hover, .styled-link:focus {
-  color: #fff;
-  text-decoration: none;
-}
+/* ... other existing styles ... */
 
 /* New Styles for Education Section */
 .education-block {
@@ -108,6 +85,7 @@ main {
   align-items: center;
   margin-bottom: 20px;
   padding: 10px;
+  color: #fff; /* Text color changed to white */
 }
 
 .university-logo {
