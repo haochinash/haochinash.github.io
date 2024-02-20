@@ -72,7 +72,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
   background: url('CTS.jpg') no-repeat center center;
   background-size: cover;
   position: relative;
@@ -83,7 +83,7 @@ main {
   position: absolute;
   top: 15%;
   left: 7%;
-  transform: translate(0, 0);
+  transform: translate(50%, 50%);
   text-align: left;
   width: 100%;
 }
