@@ -78,6 +78,16 @@ main {
 }
 
 /* ... other existing styles ... */
+/* New Style for Logo Link */
+.logo a {
+  color: #fff; /* Keeps the color white */
+  text-decoration: none; /* Removes underline */
+}
+
+.logo a:hover, .logo a:focus {
+  color: #fff; /* Keeps the color white even on hover/focus */
+  text-decoration: none; /* Ensures no underline on hover/focus */
+}
 
 /* New Styles for Education Section */
 .education-block {
