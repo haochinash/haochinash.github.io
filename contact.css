@@ -102,3 +102,14 @@ main {
   color: #fff; /* Keeps the color white even on hover/focus */
   text-decoration: none; /* Ensures no underline on hover/focus */
 }
+
+/* New Styles for Styled Links */
+.styled-link {
+  color: #fff; /* or any color that matches your website */
+  text-decoration: none; /* Removes underline */
+}
+
+.styled-link:hover, .styled-link:focus {
+  color: #fff; /* or a different color for hover state */
+  text-decoration: none; /* Ensures no underline on hover/focus */
+}
