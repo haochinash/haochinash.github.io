@@ -81,7 +81,7 @@ main {
 
 .banner-text {
   position: absolute;
-  top: 80%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: Center;
