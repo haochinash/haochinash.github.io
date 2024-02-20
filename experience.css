@@ -72,7 +72,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 150vh;
   background: url('C2.jpg') no-repeat center center;
   background-size: cover;
   position: relative;
