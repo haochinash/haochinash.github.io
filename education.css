@@ -26,29 +26,17 @@ nav {
   padding: 0 10px;
 }
 
-.nav-group.left ul {
+.nav-group.left ul, .nav-group.right ul {
   list-style: none;
   display: flex;
   align-items: center;
 }
 
-.nav-group.left ul li {
+.nav-group.left ul li, .nav-group.right ul li {
   padding: 0 20px;
 }
 
 .nav-group.left ul li a, .nav-group.right ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-}
-
-.nav-group.right ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
-
-.nav-group.right ul li a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
@@ -94,22 +82,35 @@ main {
 
 /* New Style for Logo Link */
 .logo a {
-  color: #fff; /* Keeps the color white */
-  text-decoration: none; /* Removes underline */
+  color: #fff;
+  text-decoration: none;
 }
 
 .logo a:hover, .logo a:focus {
-  color: #fff; /* Keeps the color white even on hover/focus */
-  text-decoration: none; /* Ensures no underline on hover/focus */
+  color: #fff;
+  text-decoration: none;
 }
 
 /* New Styles for Styled Links */
 .styled-link {
-  color: #fff; /* or any color that matches your website */
-  text-decoration: none; /* Removes underline */
+  color: #fff;
+  text-decoration: none;
 }
 
 .styled-link:hover, .styled-link:focus {
-  color: #fff; /* or a different color for hover state */
-  text-decoration: none; /* Ensures no underline on hover/focus */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* New Styles for Education Section */
+.education-block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.university-logo {
+  width: 100px; /* Adjust size as needed */
+  margin-right: 20px;
 }
